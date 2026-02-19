@@ -1,0 +1,65 @@
+/* 통합 디자인 위치 common.css */
+/* 개별파일별 디자인 금지! */
+body {background-color:rgba(0,0,0,0.15);}
+#wrap {
+    width:440px; 
+    height:95vh; min-height:956px;
+    background-color:#fff;
+    margin:5px auto 0;
+    padding:45px 15px 0;
+}
+#wrap header {
+    overflow:hidden;
+}
+#wrap header h1 {float:left;}
+#wrap header h1 a {
+    font-size:1.5rem;/* 25px */
+    font-weight:900;
+}
+#wrap header nav {
+    float:right;
+}
+#wrap header nav a {}
+#wrap header nav a img {}
+#wrap header nav .search {margin-right:10px;}
+#wrap header nav .search img {}
+#wrap header nav .all_menu {}
+#wrap header nav .all_menu img {}
+#wrap .tab_menu {
+    margin:10px 0;
+    border-bottom:1px solid #ddd;
+}
+#wrap .tab_menu a {
+    line-height:41px; font-size:1.13rem;/* 18px */
+    display:inline-block; color:#555;
+}
+#wrap .tab_menu .active {font-weight:700; color:#000;}
+#wrap .tab_menu .all {margin-right:10px;}
+#wrap .tab_menu .today {}
+#wrap .tab_contents {}
+#wrap .tab_contents .contents {
+    overflow:hidden;
+    border-bottom:1px solid #ddd;
+}
+#wrap .tab_contents .contents a {
+    float:left;
+    line-height:45px;
+}
+/* 상태선택자 :hover */
+#wrap .tab_contents .contents:hover {border-color:#000;}
+#wrap .tab_contents .contents:hover a {color:#888;}
+#wrap .tab_contents .contents a:hover {}
+#wrap .tab_contents .contents .date {width:72px; text-align:center;}
+#wrap .tab_contents .contents .date+a {
+    width:calc(100% - 72px);
+} /* + 형제관계 +사이 여백은 가독성차이 */
+#wrap .tab_contents .contents1 {}
+#wrap .tab_contents .contents2 {}
+#wrap .tab_contents .contents3 {}
+#wrap #write_fab {
+    position:fixed;
+    /* position:absolute; */
+    right:50px; bottom:50px;
+}
+#wrap #write_fab:hover img {filter:brightness(80%) grayscale(100%)}
+#wrap #write_fab img {}

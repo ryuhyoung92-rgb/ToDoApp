@@ -1,0 +1,7 @@
+/* 할일 완료 complete.css */
+#wrap .tab_contents .complete {}
+#wrap .tab_contents .complete a {}
+#wrap .tab_contents .complete .date {}
+#wrap .tab_contents .complete .date+a {
+    text-decoration:line-through; color:#888;
+}

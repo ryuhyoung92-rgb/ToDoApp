@@ -1,0 +1,29 @@
+/* 할일 작성 write.css */
+#wrap {position:relative;}
+#wrap #write_form {
+    position:absolute; left:20px; top:228px;
+    /* absolute 설정 시 주의사항 및 작업 순서 */
+    /* 1. 부모position추가설정 2. 너비재설정 */
+    background-color:rgba(255,255,255,0.8);
+    border-radius:10px;
+    border:1px solid #ddd;
+    padding:20px;
+    width:calc(100% - 40px);
+    /* 자식 write_wrap의 세로값을 부모는 자동으로 따라감=300 */
+}
+#wrap #write_form #write_wrap {
+    height:300px;
+}
+#wrap #write_form #write_wrap #write_contents {
+    border:0;
+    background:none;
+    width:100%; height:calc(100% - 24px);
+}
+#wrap #write_form #write_wrap #confirm_btn {
+    /* background-color: antiquewhite; */
+    width:100%;
+    text-align:right;
+}
+#wrap #write_form #write_wrap #confirm_btn img {}
+#wrap #write_fab {}
+#wrap #write_fab img {}
