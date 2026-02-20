@@ -1,0 +1,8 @@
+/* 할일 등록 전 today.css */
+#wrap {}
+#wrap p {
+    display:block;
+    text-align:center;
+    margin-top:100px;
+    color:#888;
+}
